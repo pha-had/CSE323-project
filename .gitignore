@@ -1,0 +1,12 @@
+# Ignore build artifacts and binaries
+/bin/
+*.o
+*.exe
+encrypt
+
+# Ignore test files
+/test_files/
+
+# Ignore temporary discord files
+C:/msys64/tmp/discord_alert.json
+C:/msys64/tmp/discord_alert.curl

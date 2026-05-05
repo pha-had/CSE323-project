@@ -1,0 +1,338 @@
+[2026-04-15 11:12:41] SHRED            deleteme.txt                             SUCCESS
+[2026-04-15 11:12:41] ENCRYPT          test_audit.txt                           SUCCESS
+[2026-04-15 11:12:41] DECRYPT_FAILED   test_audit.txt.enc                       FAILURE
+[2026-04-15 11:21:42] SHRED                    deleteme.txt                             SUCCESS
+[2026-04-15 11:22:59] ENCRYPT                  test.txt                                 SUCCESS
+[2026-04-15 11:23:09] LOCKED                   test.txt.enc                             FAILURE
+[2026-04-15 11:23:33] LOCKED                   test.txt.enc                             FAILURE
+[2026-04-15 11:29:36] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:29:51] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:33] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:33] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:34] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:34] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:34] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:37:34] LOCKED                   test.txt.enc                             FAILURE
+[2026-04-15 11:40:26] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 11:40:36] DECRYPT                  test.txt.enc                             SUCCESS
+[2026-04-15 12:00:47] ENCRYPT                  test.txt                                 SUCCESS
+[2026-04-15 12:01:55] DECRYPT                  test.txt.enc                             SUCCESS
+[2026-04-15 12:03:18] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:15:49] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:12] ENCRYPT                  test.txt                                 SUCCESS
+[2026-04-15 12:16:23] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:23] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:23] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:23] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:23] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-04-15 12:16:35] LOCKED                   test.txt.enc                             FAILURE
+[2026-04-15 12:17:07] DECRYPT                  test.txt.enc                             SUCCESS
+[2026-04-15 12:17:33] SHRED                    deleteme.txt                             SUCCESS
+[2026-04-15 12:24:44] ENCRYPT                  bigfile.bin                              SUCCESS
+[2026-04-15 12:24:52] DECRYPT                  bigfile.bin.enc                          SUCCESS
+[2026-04-15 12:27:06] ENCRYPT                  empty.txt                                SUCCESS
+[2026-04-15 12:27:43] DECRYPT                  empty.txt.enc                            SUCCESS
+[2026-04-15 12:28:45] DECRYPT_FAILED           fake.enc                                 FAILURE
+[2026-05-05 00:00:14] ENCRYPT                  test_folder.tar.gz                       SUCCESS
+[2026-05-05 00:02:24] DECRYPT                  test_folder.tar.gz.enc                   SUCCESS
+[2026-05-05 00:18:53] ENCRYPT_FAIL_OPEN_INPUT  F:recordingtest_folder_video             FAILURE
+[2026-05-05 00:24:45] ENCRYPT                  test_folder_video.tar.gz                 SUCCESS
+[2026-05-05 00:24:53] SHRED                    test_folder_video.tar.gz                 SUCCESS
+[2026-05-05 00:26:45] DECRYPT                  test_folder_video.tar.gz.enc             SUCCESS
+[2026-05-05 00:31:00] ENCRYPT                  test_folder_video.tar.gz                 SUCCESS
+[2026-05-05 00:31:04] SHRED                    test_folder_video.tar.gz                 SUCCESS
+[2026-05-05 00:32:29] DECRYPT                  test_folder_video.tar.gz.enc             SUCCESS
+[2026-05-05 00:40:30] ENCRYPT                  F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 00:40:35] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 00:40:39] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 00:40:40] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 00:40:40] SHRED                    F:/recording/test_folder_video           SUCCESS
+[2026-05-05 00:41:25] DECRYPT                  F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 00:46:14] DECRYPT_FAILED           F:/recording/test_folder_video.tar.gz.en FAILURE
+[2026-05-05 00:47:09] DECRYPT_FAILED           F:/recording/test_folder_video           FAILURE
+[2026-05-05 00:49:39] ENCRYPT                  F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 00:49:53] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 00:49:59] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 00:50:02] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 00:50:02] SHRED                    F:/recording/test_folder_video           SUCCESS
+[2026-05-05 00:51:25] DECRYPT                  F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 00:51:34] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 00:51:43] SHRED                    F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 01:38:34] ENCRYPT                  F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 01:38:35] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 01:38:37] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 01:38:39] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 01:38:39] SHRED                    F:/recording/test_folder_video           SUCCESS
+[2026-05-05 01:39:05] DECRYPT                  F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 01:39:06] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 01:39:10] SHRED                    F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 01:58:30] ENCRYPT                  F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 01:58:32] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 01:58:35] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 01:58:36] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 01:58:36] SHRED                    F:/recording/test_folder_video           SUCCESS
+[2026-05-05 01:59:49] DECRYPT_FAILED           F:/recording/test_folder_video.tar.gz.en FAILURE
+[2026-05-05 02:00:20] DECRYPT_FAILED           F:/recording/test_folder_video.tar.gz.en FAILURE
+[2026-05-05 02:01:20] DECRYPT                  F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 02:01:23] SHRED                    F:/recording/test_folder_video.tar.gz    SUCCESS
+[2026-05-05 02:01:27] SHRED                    F:/recording/test_folder_video.tar.gz.en SUCCESS
+[2026-05-05 02:11:33] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:11:33] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:12:30] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:13:53] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:13:53] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:14:04] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:14:04] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:27:07] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:27:07] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:27:13] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:27:14] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:28:21] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:28:21] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:28:32] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:28:32] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:29:18] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:29:18] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:29:23] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:29:23] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 02:32:57] ENCRYPT                  mytest1.txt                              SUCCESS
+[2026-05-05 02:32:57] SHRED                    mytest1.txt                              SUCCESS
+[2026-05-05 02:38:07] ENCRYPT                  mytest2.txt                              SUCCESS
+[2026-05-05 02:38:07] SHRED                    mytest2.txt                              SUCCESS
+[2026-05-05 02:38:36] ENCRYPT                  mytest3.txt                              SUCCESS
+[2026-05-05 02:38:36] SHRED                    mytest3.txt                              SUCCESS
+[2026-05-05 02:40:51] DECRYPT_FAILED           mytest3.txt                              FAILURE
+[2026-05-05 02:42:34] ENCRYPT                  mytest5.txt                              SUCCESS
+[2026-05-05 02:42:34] SHRED                    mytest5.txt                              SUCCESS
+[2026-05-05 03:02:31] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:02:31] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:04:55] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:04:55] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:09:07] DECRYPT_FAILED           F:/recording/test_folder_video/Valorant  FAILURE
+[2026-05-05 03:09:18] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:09:18] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:09:29] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:09:29] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:13:13] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:13:13] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:13:33] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:13:34] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:20:19] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:20:19] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:20:26] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:20:27] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:22:43] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:22:45] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:22:49] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:22:51] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:30:51] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:30:51] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:31:22] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:31:22] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:34:34] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:34:34] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:34:38] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 03:34:38] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 04:22:05] ENCRYPT                  alerttest.txt                            SUCCESS
+[2026-05-05 04:22:05] SHRED                    alerttest.txt                            SUCCESS
+[2026-05-05 04:23:29] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 04:34:36] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 04:39:28] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 04:54:22] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 04:56:29] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 04:57:32] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:00:50] ENCRYPT                  real.txt                                 SUCCESS
+[2026-05-05 05:00:50] SHRED                    real.txt                                 SUCCESS
+[2026-05-05 05:02:47] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:09:22] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:14:04] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:17:26] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:20:30] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:22:37] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:27:58] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:29:12] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:31:53] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:32:38] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:34:16] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:37:37] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:38:02] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:38:23] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:38:43] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:38:52] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:39:19] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 05:42:29] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:43:57] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:46:32] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:50:51] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 05:58:34] DECRYPT_FAILED           real.txt.enc                             FAILURE
+[2026-05-05 06:02:02] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:18:26] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:18:29] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:18:33] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:25:45] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:33:28] DECRYPT_FAILED           alerttest.txt.enc                        FAILURE
+[2026-05-05 06:54:23] ENCRYPT                  verify_test.txt                          SUCCESS
+[2026-05-05 06:54:23] SHRED                    verify_test.txt                          SUCCESS
+[2026-05-05 06:54:23] VERIFY                   verify_test.txt.enc                      FAILURE
+[2026-05-05 06:54:23] VERIFY                   verify_test_corrupt.enc                  FAILURE
+[2026-05-05 06:54:56] VERIFY                   verify_test.txt.enc                      SUCCESS
+[2026-05-05 06:54:56] VERIFY                   verify_test_corrupt.enc                  FAILURE
+[2026-05-05 06:56:52] VERIFY                   verify_test.txt.enc                      SUCCESS
+[2026-05-05 06:56:52] VERIFY                   verify_test_corrupt.enc                  FAILURE
+[2026-05-05 07:12:12] ENCRYPT                  cp_real.txt                              SUCCESS
+[2026-05-05 07:12:12] SHRED                    cp_real.txt                              SUCCESS
+[2026-05-05 07:12:12] CHANGE_PASSWORD          cp_real.txt.enc                          SUCCESS
+[2026-05-05 07:12:12] VERIFY                   cp_real.txt.enc                          FAILURE
+[2026-05-05 07:12:12] VERIFY                   cp_real.txt.enc                          SUCCESS
+[2026-05-05 07:12:17] ENCRYPT                  cp_duress_real.txt                       SUCCESS
+[2026-05-05 07:12:17] SHRED                    cp_duress_real.txt                       SUCCESS
+[2026-05-05 07:12:17] CHANGE_PASSWORD          cp_duress_real.txt.enc                   SUCCESS
+[2026-05-05 07:12:17] VERIFY                   cp_duress_real.txt.enc                   FAILURE
+[2026-05-05 07:12:17] VERIFY                   cp_duress_real.txt.enc                   SUCCESS
+[2026-05-05 07:12:17] VERIFY                   cp_duress_real.txt.enc                   FAILURE
+[2026-05-05 07:12:17] VERIFY                   cp_duress_real.txt.enc                   SUCCESS
+[2026-05-05 14:49:56] ENCRYPT                  fake_real.txt                            SUCCESS
+[2026-05-05 14:49:56] SHRED                    fake_real.txt                            SUCCESS
+[2026-05-05 14:49:56] DECRYPT                  fake_real.txt.enc                        SUCCESS
+[2026-05-05 14:50:23] DECRYPT                  fake_real.txt.enc                        SUCCESS
+[2026-05-05 14:57:21] DECRYPT_FAILED           F:/recording/test_folder_video           FAILURE
+[2026-05-05 15:13:25] ENCRYPT                  H:/ABBU/BOU Bill/Application.docx        SUCCESS
+[2026-05-05 15:13:25] SHRED                    H:/ABBU/BOU Bill/Application.docx        SUCCESS
+[2026-05-05 15:14:13] DECRYPT                  H:/ABBU/BOU Bill/Application.docx.enc    SUCCESS
+[2026-05-05 15:14:28] SHRED                    H:/ABBU/BOU Bill/Application.docx.enc    SUCCESS
+[2026-05-05 15:15:15] ENCRYPT                  H:/ABBU/BOU Bill/Application.docx        SUCCESS
+[2026-05-05 15:15:15] SHRED                    H:/ABBU/BOU Bill/Application.docx        SUCCESS
+[2026-05-05 15:15:39] DECRYPT                  H:/ABBU/BOU Bill/Application.docx.enc    SUCCESS
+[2026-05-05 15:15:46] SHRED                    H:/ABBU/BOU Bill/Application.docx.enc    SUCCESS
+[2026-05-05 15:16:08] ENCRYPT                  H:/ABBU/BOU Bill/Bill-2.docx             SUCCESS
+[2026-05-05 15:16:08] SHRED                    H:/ABBU/BOU Bill/Bill-2.docx             SUCCESS
+[2026-05-05 15:16:31] DECRYPT                  H:/ABBU/BOU Bill/Bill-2.docx.enc         SUCCESS
+[2026-05-05 15:18:00] SHRED                    H:/ABBU/BOU Bill/Bill-2.docx.enc         SUCCESS
+[2026-05-05 15:32:49] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:32:49] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:33:11] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:33:16] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:13] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:14] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:24] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:27] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:52] ENCRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:52:52] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:53:05] DECRYPT                  F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 15:53:07] SHRED                    F:/recording/test_folder_video/Valorant  SUCCESS
+[2026-05-05 16:26:54] ENCRYPT                  G:/file encryption test/movies/Harry.Pot SUCCESS
+[2026-05-05 16:27:41] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 16:28:42] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 16:30:01] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 16:31:48] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 16:34:28] DECRYPT_FAILED           hp.enc                                   FAILURE
+[2026-05-05 16:58:53] ENCRYPT                  G:/file encryption test/movies/Harry.Pot SUCCESS
+[2026-05-05 16:59:33] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 17:02:19] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 17:09:40] ENCRYPT                  G:/file encryption test/movies/Harry.Pot SUCCESS
+[2026-05-05 17:10:06] DECRYPT_FAILED           G:/file encryption test/movies/Harry.Pot FAILURE
+[2026-05-05 17:15:57] DECRYPT_FAILED           test.txt.enc                             FAILURE
+[2026-05-05 17:16:45] ENCRYPT                  test_plain.txt                           SUCCESS
+[2026-05-05 17:16:45] SHRED                    test_plain.txt                           SUCCESS
+[2026-05-05 17:16:52] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:16:58] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:17:09] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:17:09] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:17:10] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:27:19] LOCKED                   test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:29] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:29] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:30] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:31] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:31] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:32:32] DECRYPT_FAILED           test_plain.txt.enc                       FAILURE
+[2026-05-05 17:56:47] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 17:56:54] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 17:57:01] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 17:57:11] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 17:57:51] ENCRYPT                  G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 17:58:10] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 17:58:20] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 17:58:26] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 17:58:26] SHRED                    G:/file encryption test/movies           SUCCESS
+[2026-05-05 17:58:52] DECRYPT                  G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 17:59:36] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 17:59:54] SHRED                    G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 18:01:52] ENCRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:02:03] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:02:22] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:03:30] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:03:34] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:03:38] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:03:41] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:04:18] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:04:32] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:07:15] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 18:16:57] ENCRYPT                  G:/fenc-test/real file.txt               SUCCESS
+[2026-05-05 18:16:57] SHRED                    G:/fenc-test/real file.txt               SUCCESS
+[2026-05-05 18:21:33] ENCRYPT                  G:/fenc-test/real file.txt               SUCCESS
+[2026-05-05 18:21:33] SHRED                    G:/fenc-test/real file.txt               SUCCESS
+[2026-05-05 18:30:18] ENCRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:30:18] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:32:21] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:34:11] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:37:27] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:37:39] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:47:56] ENCRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:47:57] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:48:07] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:48:21] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 18:48:30] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:17:01] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:17:01] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:17:24] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:17:27] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:18:57] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:18:57] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:19:15] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:19:17] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:22:29] DECRYPT_FAILED           G:/file encryption test/movies/How.I.Met FAILURE
+[2026-05-05 23:24:16] DECRYPT_FAILED           G:/file encryption test/movies/How.I.Met FAILURE
+[2026-05-05 23:24:26] DECRYPT_FAILED           G:/file encryption test/movies/How.I.Met FAILURE
+[2026-05-05 23:29:16] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:29:23] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:29:43] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:29:52] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:30:20] ENCRYPT                  G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:30:32] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:30:33] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:30:41] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:30:42] SHRED                    G:/file encryption test/movies           SUCCESS
+[2026-05-05 23:30:48] DECRYPT                  G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 23:31:05] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:31:16] SHRED                    G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 23:33:52] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:33:52] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:34:15] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:34:18] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:22] ENCRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:22] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:31] DECRYPT                  G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:38] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:51] ENCRYPT                  G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:35:51] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:35:51] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:35:51] SHRED                    G:/file encryption test/movies/How.I.Met SUCCESS
+[2026-05-05 23:35:51] SHRED                    G:/file encryption test/movies           SUCCESS
+[2026-05-05 23:36:03] DECRYPT                  G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 23:36:07] SHRED                    G:/file encryption test/movies.tar.gz    SUCCESS
+[2026-05-05 23:36:07] SHRED                    G:/file encryption test/movies.tar.gz.en SUCCESS
+[2026-05-05 23:36:31] ENCRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:36:31] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:37:11] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:37:24] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:37:30] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:37:35] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:37:38] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:37:45] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:38:20] DECRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:38:25] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:39:36] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
+[2026-05-05 23:39:51] ENCRYPT                  G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:39:51] SHRED                    G:/file encryption test/movies/Desktop 2 SUCCESS
+[2026-05-05 23:41:24] DECRYPT_FAILED           G:/file encryption test/movies/Desktop 2 FAILURE
